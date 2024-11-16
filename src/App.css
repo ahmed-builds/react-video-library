@@ -1,0 +1,31 @@
+.appContainer {
+    height: 100vh;
+}
+.topHeader {
+    margin: 0 !important;
+}
+/* Media Queries to be used for Responsiveness Starts Here */
+.sidenav {
+    width: 12%;
+    min-height: calc(100vh - 70px);
+}
+ul.sidenav-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 15px;
+    line-height: 1.5rem;
+}
+ul.sidenav-nav li.sidenav-item a.sidenav-link{
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 2px 0px;
+}
+ul.sidenav-nav li.sidenav-item a.sidenav-link:hover, ul.sidenav-nav li.sidenav-item.active {
+    background-color: rgb(var(--bs-primary-rgb));
+}
+.mainSection {
+    width: 85%;
+}
+/* Media Queries to be used for Responsiveness Ends Here */
